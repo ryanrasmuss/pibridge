@@ -1,0 +1,11 @@
+[Unit]
+Description=PiBridge
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+ExecStart=/etc/pibridge.sh
+Type=simple
+
+[Install]
+WantedBy=default.target
