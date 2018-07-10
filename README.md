@@ -33,7 +33,7 @@ iface wlan0 inet dhcp
     wpa-conf /etc/wpa_supplicant/wpa_supplicant.conf
 ```
 
-Just make sure you network configuration is wworking before running this script.
+Just make sure your network configuration is working before running this script.
 
 As long as your ``wap_supplicant.conf`` file configured is correctly. This script will automatically adapt to the new network and reconfigure itself upon boot.
 
